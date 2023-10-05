@@ -1,0 +1,426 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>PT. Maspion Kencana</title>
+  <link rel="shortcut icon" href="./images/brand-maspion.png" type="image/x-icon" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  <link rel="stylesheet" href="./style.css" />
+
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css" />
+</head>
+
+<body>
+  <!-- navbar -->
+  <nav class="navbar navbar-expand-lg z-3 bg-transparent position-fixed" style="top: 10px">
+    <div class="container">
+      <div class="bg-dark float_nav bg-opacity-75 shadow d-flex justify-content-between mx-auto px-4 rounded-pill">
+        <a class="navbar-brand d-flex align-items-center" href="#">
+          <img src="./images/brand-maspion.png" width="44" height="44" alt="Logo Pt" />
+          <span class="text-white"> PT. Maspion Kencana</span></a>
+        <button class="navbar-toggler border-0 p-0 m-0" type="button" data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+          aria-label="Toggle navigation">
+          <i class="fa-solid fa-bars text-white"></i>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <div class="d-flex d-lg-none justify-content-between">
+            <a class="navbar-brand" href="#">
+              <img src="./images/brand-maspion.png" width="44" height="44" alt="" />
+              <span class="text-primary"> PT. Maspion Kencana </span>
+            </a>
+            <button class="navbar-toggler border-0 p-0 m-0" type="button" data-bs-toggle="collapse"
+              data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+              aria-label="Toggle navigation">
+              <i class="fa-solid fa-xmark text-black"></i>
+            </button>
+          </div>
+
+          <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
+            <li class="nav-item pt-2">
+              <a class="nav_link active" aria-current="page" href="#">
+                <div class="iconcover">
+                  <i class="bi bi-house"></i>
+                </div>
+
+                <span>Home</span>
+              </a>
+            </li>
+            <li class="nav-item pt-2">
+              <a class="nav_link" href="#profile">
+                <div class="iconcover">
+                  <i class="fa-regular fa-address-card"></i>
+                </div>
+
+                <span>Profile</span>
+              </a>
+            </li>
+            <li class="nav-item pt-2">
+              <a class="nav_link" href="#sejarah">
+                <div class="iconcover">
+                  <i class="bi bi-buildings"></i>
+                </div>
+
+                <span>Sejarah</span>
+              </a>
+            </li>
+            <li class="nav-item pt-2">
+              <a class="nav_link" href="#produk">
+                <div class="iconcover">
+                  <i class="bi bi-box-fill"></i>
+                </div>
+
+                <span>Produk</span>
+              </a>
+            </li>
+          </ul>
+
+        </div>
+      </div>
+    </div>
+  </nav>
+  <!-- \navbar -->
+
+  <!-- landingarea -->
+  <section class="landing_area before pt-100" style="height: 90vh">
+    <div class="h-100">
+      <div id="carouselExampleAutoplaying" class="carousel slide h-100" data-bs-ride="carousel">
+        <div class="carousel-inner h-100">
+          <div class="carousel-item h-100 active">
+            <div class="row gx-0 justify-content-center align-items-center h-100">
+              <div class="col-xxl-6 col-xl-7 col-lg-7 col-md-8 col-11">
+                <div class="text-center">
+                  <h1 class="text-uppercase fw-bold text-white display-1">
+                    Selamat Datang
+                  </h1>
+                  <p class="text-white fs-4">
+                    Di Website Sistem Inventori <b>PT. Maspion Kencana</b>
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item h-100">
+            <div class="row gx-0 justify-content-center align-items-center h-100">
+              <div class="col-xxl-6 col-xl-7 col-lg-7 col-md-8 col-11">
+                <div class="text-center">
+                  <h1 class="text-uppercase fw-bold text-white display-1">
+                    Get Started
+                  </h1>
+                  <p class="text-white fs-4">
+                    Klik button login untuk masuk ke sistem inventori
+                  </p>
+                </div>
+                <div class="joinus row gx-0 justify-content-center align-items-center h-100">
+                  <button class="nav_link border-0 me-1 ">
+                    <a class="nav_link" href="https://maspionkencana.technosolution.site/login">
+                      <div class="iconcover">
+                        <i class="fa-solid fa-right-to-bracket"></i>
+                      </div>
+                      <span>Login</span>
+                    </a>
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying"
+          data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying"
+          data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </div>
+  </section>
+  <!-- \landingarea -->
+
+  <!-- Profile section -->
+  <section class="about py-100" id="profile">
+    <div class="container">
+      <div class="row align-items-center justify-content-center">
+        <div class="col-xl-6 col-lg-6 col-md-12 col-11 order-lg-0 order-1">
+          <div class="text">
+            <h5 class="text-white bg-primary fw-bold shadow px-3 py-3 mb-5 rounded-3 fs-4">
+              Profile PT. Maspion Kencana
+            </h5>
+            <h2 class="display-5 mb-5 border-start border-5 border-primary ps-3">
+              "<b>Slogan Maspion saat ini adalah Cintailah Produk-Produk Indonesia.</b>"
+            </h2>
+            <p class="fs-bold" style="text-align: justify; font-size: 14px;">
+              <i>
+                Sebagai salah satu grup perusahaan yang dikenal di Indonesia, Maspion Group saat ini telah menjadi
+                perusahaan berskala besar dengan lebih dari 30,000 karyawan yang tersebar pada 5 area industri dan
+                produksi di Jawa Timur dan Cibitung, Jakarta. Mengawali usaha sebagai produsen peralatan dapur pada
+                tahun 1967, kami, Maspion Group mengembangkan sayap bisnis menjadi 8 kategori bisnis utama: Layanan
+                Produk Konsumen, Produk Konsumen Industri, Konstruksi dan Material Bangunan, Hotel, Properti Komersil
+                dan Properti Industri, Perbankan, Perdagangan dan Distribusi, Infrastruktur dan Energi, serta beragam
+                bisnis lainnya. Dengan impian untuk selalu mengembangkan perusahaan, Maspion Group telah menarik
+                perhatian perusahaan multinasional untuk turut serta menjadi partner bisnis kami.
+
+                Didorong dengan semangat kewirausahaan dari Bapak Alim Husin, Pendiri Maspion Group, beliau menyadari
+                sebuah visi untuk menjadikan Maspion Group sebagai sebuah grup bisnis terkemuka di Indonesia. Beliau
+                selalu didukung oleh anak-anak, terutama anak sulung beliau, Bapak Alim Markus, yang kemudian diikuti
+                oleh ketiga anak lainnya, Bapak Alim Mulia Sastra, Bapak Alim Satria, dan Bapak Alim Prakasa. Tidak lupa
+                juga para eksekutif professional yang mendesikasikan hidup dan semangatnya untuk keberhasilan Maspion
+                Group.
+
+                Melalui dedikasi dan kerja keras seluruh karyawan, Maspion Group bertujuan untuk selalu meningkatkan
+                kinerja ekonomis yang menjadin stabilitas dari nilai dan kontribusi para pemegang saham untuk memajukan
+                dan mengembangkan perekonomian Indonesia.
+
+              </i>
+            </p>
+          </div>
+        </div>
+        <div class="col-xl-6 col-lg-6 col-md-12 col-11 order-lg-1 order-0">
+          <div class="image rounded-6 shadow">
+            <img src="./images/pendiri_maspion.jpg" class="w-100 rounded-4" alt="" />
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- \About section -->
+
+  <!-- Sejarah section -->
+  <section id="sejarah" class="contact bg-light py-100">
+
+    <div class="container">
+      <div class="row align-items-center justify-content-center">
+        <div class="col-xl-6 col-lg-6 col-md-12 col-11">
+          <div class="image rounded-4 shadow">
+            <img src="./images/foto_sejarah.jpg" class="w-100 rounded-4" alt="" />
+          </div>
+        </div>
+        <div class="col-xl-6 col-lg-6 col-md-12 col-11">
+          <div class="text">
+            <h5 class="text-white bg-primary fw-bold shadow px-3 py-3 mb-5 rounded-3 fs-4">
+              Sejarah PT. Maspion Kencana
+            </h5>
+            <h2 class="display-5 mb-5 border-start border-5 border-primary ps-3">
+              "Sejarah Maspion Group"
+            </h2>
+            <p class="fs-bold " style="text-align: justify;">
+              <i>
+                Sejarah dimulai pada tahun 1962 dari UD Logam DKI, industri dapur rumah sederhana yang didirikan oleh
+                Mr. Alim Husein dan rekannya Gunardi Go. Sebelum menjadi besar seperti sekarang ini, sejarah perusahaan
+                Maspion cukup unik dan sederhana. Alim Husin, ayah Alim Markus mendirikan sebuah usaha kecil yang
+                memproduksi lampu teplok yang terbuat dari aluminium dan logam. Perusahaan yang berdiri sekitar 1961 itu
+                diberi nama UD Logam Jawa. Jumlah karyawannya hanya delapan orang dan bisa memproduksi sekitar 300 lusin
+                per hari. Dari lampu teplok kemudian berkembang dengan memproduksi lampu badai untuk para nelayan. Akhir
+                70-an mulai memproduksi perabot rumah tangga dengan bahan plastik seperti ember, baskom, loyang, dan
+                sebagainya. Pada 1972, usaha keluarga Alim Husin semakin maju dan berkembang sehingga kemudian merancang
+                nama dan logo baru. Akhirnya keluarga Alim Husin memperoleh nama baru, yakni Maspion. Menurut Alim
+                Markus, Maspion merupakan singkatan dari M=Mengajak A=anda S=selalu P=percaya I=industri O=olahan
+                N=nasional.
+              </i>
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- \Sejarah-->
+
+  <!-- Produk -->
+  <!-- Swiper -->
+  <section class="team_members py-100" id="produk">
+
+    <div class="container">
+      <div class="text">
+        <h5 class="text-white bg-primary fw-bold shadow px-3 py-3 mb-5 rounded-3 fs-4">
+          Produk Terbaru Kami
+        </h5>
+      </div>
+      <div class="swiper mySwiper pb-5">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide">
+            <div class="card rounded-4">
+              <img src="./images/produk1.jpg" class="rounded-top-4" alt="" />
+              <div class="card-body d-flex justify-content-between">
+                <div class="card-text">
+                  <h5 class="card-title fw-bold">JF-1206 S</h5>
+                  <h6 class="fw-light fst-italic fs-14">
+                    Merk : Maspion Elektrik
+                  </h6>
+                  <p style="text-align: justify; font-size: 12px;">
+                    Warna tersedia : "Kipas Angin Kotak ( Box Fan ) 12"" ; 220V ; 50Hz ; 45W ; Louver Oscilation"
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="card rounded-4">
+              <img src="./images/produk2.jpg" class="rounded-top-4" alt="" />
+              <div class="card-body d-grid justify-content-between+">
+                <div class="card-text">
+                  <h5 class="card-title fw-bold">JMT-1221</h5>
+                  <h6 class="fw-light fst-italic fs-14">
+                    Merk : Alaskair Maspion
+                  </h6>
+                  <p style="text-align: justify; font-size: 12px;">
+                    Container Kaca kapasitas 1L dilengkapi dengan pelumat bahan kering ; 230 W ; warna : putih~ungu ;
+                    dimensi : 540 x 410 x 325
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="card rounded-4">
+              <img src="./images/produk3.jpeg" class="rounded-top-4" alt="" />
+              <div class="card-body d-flex justify-content-between">
+                <div class="card-text">
+                  <h5 class="card-title fw-bold">SS-D07 DEEP SOUP BOWL SET 22 CM</h5>
+                  <h6 class="fw-light fst-italic fs-14">
+                    Merk : Maspion Stainless Steel
+                  </h6>
+                  <p style="text-align: justify; font-size: 12px;">
+                    L.510.X W.510 X H.740 MM Ø 220 X W.212 MM 899001119637 8 12 SETS COLOR 19.29 KG Bahan : JSL AUS (0.5
+                    mm)
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="card rounded-4">
+              <img src="./images/produk5.jpg" class="rounded-top-4" alt="" />
+              <div class="card-body d-flex justify-content-between">
+                <div class="card-text">
+                  <h5 class="card-title fw-bold">Multi Fryer Colan Tutup Kaca</h5>
+                  <h6 class="fw-light fst-italic fs-14">
+                    Merk : Colan
+                  </h6>
+                  <p style="text-align: justify; font-size: 12px;">
+                    Dengan Multi Fryer Colan Tutup Kaca dari Maspion. Sekarang menggoreng dengan tehnik Deep Fry bukan
+                    masalah lagi. Anda bisa membuat ayam goreng, kentang goreng, dan berbagai kreasi masakan lain dengan
+                    mudah. Bukan hanya itu Fryer Tutup Kaca juga bisa digunakan untuk membuat masakan berkuah.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="card rounded-4">
+              <img src="./images/produk6.jpg" class="rounded-top-4" alt="" />
+              <div class="card-body d-flex justify-content-between">
+                <div class="card-text">
+                  <h5 class="card-title fw-bold">Trissa Basket L 18.9 + Tutup</h5>
+                  <h6 class="fw-light fst-italic fs-14">
+                    Merk : Maspion Plastic
+                  </h6>
+                  <p>
+                    Maspion keranjang plastik serbaguna ukuran Large + Tutup - Isi 2 pcs
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+        <div class="swiper-pagination"></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- \Produk -->
+
+
+
+  <!-- Footer -->
+  <footer class="bg-light pt-100">
+    <div class="container pb-100">
+      <div class="row">
+        <div class="col-xxl-3 col-xl-3 col-lg-12 col-sm-12 col-12 ">
+          <a class="navbar-brand d-flex align-items-center" href="#">
+            <img src="./images/brand-maspion.png" width="66" height="66" alt="" />
+            <span class="text-black fw-bold fs-4"> PT. Maspion Kencana </span></a>
+
+        </div>
+        <div class="col-xxl-3 col-xl-3 col-lg-4 col-sm-4 col-6 ">
+          <h6 class="text-lg-start text-center fw-bold">Usefull Links</h6>
+          <ul class="list-unstyled">
+            <li class="text-lg-start text-center mb-3">
+              <a href="#" class="text-decoration-none fs-14 text-black">
+                Home
+              </a>
+            </li>
+            <li class="text-lg-start text-center mb-3">
+              <a href="#about" class="text-decoration-none fs-14 text-black">
+                Profile
+              </a>
+            </li>
+            <li class="text-lg-start text-center mb-3">
+              <a href="#Contact" class="text-decoration-none fs-14 text-black">
+                Sejarah
+              </a>
+            </li>
+            <li class="text-lg-start text-center mb-3">
+              <a href="#team" class="text-decoration-none fs-14 text-black">
+                Produk
+              </a>
+            </li>
+          </ul>
+        </div>
+        <div class="col-xxl-3 col-xl-3 col-lg-4 col-sm-4 col-12 ">
+          <h6 class="text-lg-start text-center fw-bold">Contact Us</h6>
+          <ul class="list-unstyled">
+            <li class="text-lg-start text-center mb-3">
+              <a class="text-decoration-none fs-14 text-black">
+                <i class="fa-solid fa-house fs-18 text-dark"></i> Kembang Jepun 38 - 40
+                Surabaya 60162, East Java, Indonesia
+              </a>
+            </li>
+            <li class="text-lg-start text-center mb-3">
+              <a class="text-decoration-none fs-14 text-black">
+                <i class="fa-regular fa-envelope fs-18 text-dark"></i>
+                info.hq@maspion.com
+              </a>
+            </li>
+            <li class="text-lg-start text-center mb-3">
+              <a class="text-decoration-none fs-14 text-black">
+                <i class="fa-solid fa-phone fs-18 text-dark"></i> +62-31-3533 055 , 3533 218
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <hr class="m-0" />
+    <div class="text-center p-4 bg-secondary-subtle">
+      © 2023 Copyright:
+      <a class="text-primary fw-bold" target="_blank" href="https://maspion.com/id/">PT. Maspion Kencana</a>
+    </div>
+  </footer>
+  <!-- Footer -->
+
+  <!-- Swiper js -->
+  <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+
+  <script src="./style.js"></script>
+
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+    integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.min.js"
+    integrity="sha384-fbbOQedDUMZZ5KreZpsbe1LCZPVmfTnH7ois6mU1QK+m14rQ1l2bGBq41eYeM/fS"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>
